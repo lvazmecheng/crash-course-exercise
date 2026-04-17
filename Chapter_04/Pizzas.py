@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+
+pizzas = ['pepperoni', 'supreme', 'aussie']
+for pizza in pizzas:
+    print(f'I like {pizza} pizza!')
+print("I really love pizza!")
