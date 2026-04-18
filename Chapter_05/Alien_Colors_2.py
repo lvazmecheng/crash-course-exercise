@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+
+alien_color = 'green'
+
+if alien_color == 'green':
+    print("You just earned 5 points.")
+if alien_color != 'green':
+    print("You just earned 10 points.")
+
+# Now the code will used if else statement to check the color of the alien and print the appropriate message.
+
+alien_color = 'green'
+if alien_color == 'green':
+    print("You just earned 5 points.")
+else:    
+    print("You just earned 10 points.")
