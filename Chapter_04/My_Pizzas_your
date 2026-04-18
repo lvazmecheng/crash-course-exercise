@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 
 pizzas = ['pepperoni', 'supreme', 'aussie']
-friend_pizzas = ['pepperoni', 'supreme', 'aussie']
+friend_pizzas = pizzas[:]
+pizzas.append('meat lovers')
+friend_pizzas.append('hawaiian')
+
 for pizza in pizzas:
     print(f'I like {pizza} pizza!')
 print("I really love pizza!")
+for pizza in friend_pizzas:
+    print(f'My friend likes {pizza} pizza!')
+print("My friend really loves pizza!")
